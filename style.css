@@ -1,0 +1,209 @@
+hgroup {
+    text-align: center;
+}
+
+h1 {
+    color: rgb(71, 12, 12);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+}
+
+h2 {
+    color: rgb(127, 111, 88);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.segundo-h2 {
+    color: rgb(71, 12, 12);
+    text-align: center;
+    font-family: Helvetica;
+    margin-top: 35px;
+    letter-spacing: 2px;
+}
+
+p {
+    text-align: justify;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(130, 141, 151);
+}
+
+header.cabeçalho h2 {
+    box-shadow: 0px 1px 0px rgb(71, 12, 12);
+}
+
+.cabeçalho {
+    background-color: rgb(197, 185, 169);
+    margin-top: 1px;
+}
+
+nav.menu {
+    display: block;
+}
+
+nav.menu h1 {
+    display: none;
+}
+
+nav.menu a {
+    color: rgb(71, 12, 12);
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+nav.menu a:hover {
+    color: rgb(130, 141, 151);
+    text-decoration: underline;
+}
+
+nav.menu li:hover {
+    background-color: rgb(197, 185, 169);
+    margin: 3px;
+    margin-right: 2px;
+    padding-right: 10px;
+    padding-left: 3px;
+}
+
+nav.menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 10px;
+}
+
+nav.menu li {
+    display: inline-block;
+    background: rgb(197, 185, 169);
+    padding: 5px;
+    margin: 2px;
+    -webkit-transition: 0.50s;
+    -o-transition: 0.50s;
+    transition: 0.50s;
+}
+
+nav.menu .gg-menu {
+    cursor: pointer;
+    width: 20px;
+    margin-top: 90%;
+}
+
+figure.imagens-felix {
+    border: 10px solid rgb(197, 185, 169);
+    box-shadow: 1px 1px 8px rgb(71, 12, 12);
+}
+
+.imagens-felix {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagens-felix img {
+    width: 30%;
+    height: auto;
+}
+
+.imagens-felix img {
+    max-width: 100%;
+    height: auto;
+}
+
+.mapContainer {
+    border: 4px solid rgb(197, 185, 169);
+    box-shadow: 1px 1px 6px rgb(71, 12, 12);
+    margin-top: 50px;
+    width: 100%;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+}
+
+.mapBox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+footer.rodape {
+    text-align: center;
+    padding: 15px;
+    border-top: 2px solid rgb(197, 185, 169);
+    margin-top: auto;
+}
+
+.linkedin,
+.github {
+    color: rgb(197, 185, 169);
+    box-shadow: 0px 0px 0px black;
+}
+
+@media screen and (max-width: 768px) {
+    footer.rodape {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav.menu ul {
+        left: 0;
+    }
+}
+
+@media screen and (min-width: 769px) {
+
+}
+
+@media screen and (max-width: 550px) {
+    nav.menu ul {
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav.menu ul {
+        position: static;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: rgb(197, 185, 169);
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    nav.menu li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    nav.menu ul {
+        position: static;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: rgb(197, 185, 169);
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    nav.menu li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    h1 {
+        font-size: 24px;
+    }
+}

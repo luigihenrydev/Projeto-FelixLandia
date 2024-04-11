@@ -1,0 +1,465 @@
+hgroup {
+    text-align: center;
+}
+
+h1 {
+    color: rgb(71, 12, 12);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+}
+
+h2 {
+    color: rgb(127, 111, 88);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: rgb(130, 141, 151);
+}
+
+header.cabeçalho h2 {
+    box-shadow: 0px 1px 0px rgb(71, 12, 12);
+}
+
+.cabeçalho {
+    background-color: rgb(197, 185, 169);
+    margin-top: 1px;
+}
+
+nav.menu {
+    display: block;
+}
+
+nav.menu h1 {
+    display: none;
+}
+
+nav.menu a {
+    color: rgb(71, 12, 12);
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+nav.menu a:hover {
+    color: rgb(130, 141, 151);
+    text-decoration: underline;
+}
+
+nav.menu li:hover {
+    background-color: rgb(197, 185, 169);
+    margin: 3px;
+    margin-right: 2px;
+    padding-right: 10px;
+    padding-left: 3px;
+}
+
+nav.menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 10px;
+    margin-top: 25px;
+}
+
+nav.menu li {
+    display: inline-block;
+    background: rgb(197, 185, 169);
+    padding: 5px;
+    margin: 2px;
+    -webkit-transition: 0.50s;
+    -o-transition: 0.50s;
+    transition: 0.50s;
+}
+
+nav.menu .gg-menu {
+    cursor: pointer;
+    width: 20px;
+    margin-top: 50%;
+}
+
+ul#album-fotos {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 100px;
+    overflow: hidden;
+    list-style: none;
+    cursor: pointer;
+}
+
+ul#album-fotos li {
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border: 3px solid rgb(197, 185, 169);
+    box-shadow: 1px 1px 8px rgb(71, 12, 12);
+    transition: transform 0.3s ease-in-out;
+}
+
+ul#album-fotos li span {
+    opacity: 0;
+    text-shadow: 1px rgb(71, 12, 12);
+    color: rgb(197, 185, 169);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(130, 141, 151);
+    font-size: 15pt;
+    line-height: 560px;
+    padding: 8px;
+}
+
+ul#album-fotos li:hover {
+    transform: scale(1.5);
+}
+
+ul#album-fotos li:hover span {
+    opacity: 1;
+}
+
+
+ul#album-fotos li.foto01 {
+    background: url(../imagens/barco.jpeg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 1200px 1600px;   
+}
+
+ul#album-fotos li.foto01:hover {
+    background-position: 0px 0px;
+    background-size: 400px 400px;
+}
+
+ul#album-fotos li.foto02 {
+    background: url(../imagens/barracas.jpeg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 1200px 1600px;
+}
+
+ul#album-fotos li.foto02:hover {
+    background-position: 0px 0px;
+    background-size: 400px 400px;
+}
+
+ul#album-fotos li.foto03 {
+    background: url(../imagens/barrasolo.jpeg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 900px 1600px;
+}
+
+ul#album-fotos li.foto03:hover {
+    background-position: 0px 0px;
+    background-size: 300px 300px;
+}
+
+ul#album-fotos li.foto04 {
+    background: url(../imagens/caiaque.jpeg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 1200px 1600px;
+}
+
+ul#album-fotos li.foto04:hover {
+    background-position: 0px 0px;
+    background-size: 300px 400px;
+}
+
+ul#album-fotos li.foto05 {
+    background: url(../imagens/galeraunida.jpeg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 1600px 1200px;
+}
+
+ul#album-fotos li.foto05:hover {
+    background-position: 0px 0px;
+    background-size: 350px 400px;
+}
+
+ul#album-fotos li.foto06 {
+    background: url(../imagens/negaodog.jpeg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 1200px 1600px;
+}
+
+ul#album-fotos li.foto06:hover {
+    background-position: 0px 0px;
+    background-size: 400px 400px;
+}
+
+ul#album-fotos li.foto07 {
+    background: url(../imagens/pesca.jpeg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 1200px 1600px;
+}
+
+ul#album-fotos li.foto07:hover {
+    background-position: 0px 0px;
+    background-size: 400px 400px;
+}
+
+ul#album-fotos li.foto08 {
+    background: url(../imagens/represadefundo.jpeg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 1200px 1600px;
+}
+
+ul#album-fotos li.foto08:hover {
+    background-position: 0px 0px;
+    background-size: 400px 400px;
+}
+
+ul#album-fotos li.foto09 {
+    background: url(../imagens/reuniao.jpeg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 1600px 1200px;
+}
+
+ul#album-fotos li.foto09:hover {
+    background-position: 0px 0px;
+    background-size: 400px 400px;
+}
+
+ul#album-fotos li.foto10 {
+    background: url(../imagens/vara.jpeg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 1200px 1600px;
+}
+
+ul#album-fotos li.foto10:hover {
+    background-position: 0px 0px;
+    background-size: 400px 400px;
+}
+
+footer.rodape {
+    text-align: center;
+    padding: 15px;
+    border-top: 1px solid rgb(197, 185, 169);
+    margin-top: auto;
+}
+
+.linkedin,
+.github {
+    color: rgb(197, 185, 169);
+    box-shadow: 0px 0px 0px black;
+}
+
+/*
+CSS DO FORMULARIO
+CSS DO FORMULARIO
+CSS DO FORMULARIO
+CSS DO FORMULARIO
+CSS DO FORMULARIO
+CSS DO FORMULARIO
+CSS DO FORMULARIO
+CSS DO FORMULARIO
+CSS DO FORMULARIO
+CSS DO FORMULARIO
+CSS DO FORMULARIO
+CSS DO FORMULARIO
+CSS DO FORMULARIO
+*/
+
+form {
+    width: 700px;
+    margin: auto;
+    background-color: rgb(197, 185, 169);
+    border-radius: 20px;
+    padding: 1pt;
+}
+
+input, textarea {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: 12pt;
+    border-radius: 8px;
+}
+
+input:hover, textarea:hover {
+    background-color: #dddddd;
+}
+
+input#botao {
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all 0.2s;
+    margin-left: 280px;
+}
+
+input#botao:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+select#cEst {
+    width: 128px;
+    margin-top: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+label {
+    font-size: 12pt;
+    margin-right: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+legend {
+    color: rgb(71, 12, 12);
+    font-weight: bold;
+    font-size: 14pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+}
+
+fieldset {
+    border-color: rgb(130, 141, 151);
+    margin: 20px;
+    border-radius: 50px;
+}
+
+fieldset#sexo {
+    width: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+    ul#album-fotos {
+        width: 100%;
+        padding: 20px;
+    }
+
+    ul#album-fotos li {
+        width: 100%;
+        margin: 10px 0;
+        box-sizing: border-box;
+    }
+
+    input#botao {
+        margin-left: 0;
+    }
+
+    form {
+        width: 90%;
+    }
+}
+
+/* Estilos para tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    ul#album-fotos {
+        width: 90%;
+        padding: 50px;
+    }
+
+    ul#album-fotos li {
+        width: 45%;
+        margin: 20px 2.5%;
+        box-sizing: border-box;
+    }
+
+    input#botao {
+        margin-left: 280px;
+    }
+
+    form {
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    ul#album-fotos {
+        width: 1000px;
+        padding: 100px;
+    }
+
+    ul#album-fotos li {
+        width: 300px;
+        margin: 10px;
+    }
+
+    form {
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    footer.rodape {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav.menu ul {
+        left: 0;
+    }
+}
+
+@media screen and (min-width: 769px) {
+
+}
+
+@media screen and (max-width: 550px) {
+    nav.menu ul {
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav.menu ul {
+        position: static;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: rgb(197, 185, 169);
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    nav.menu li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    nav.menu ul {
+        position: static;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: rgb(197, 185, 169);
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    nav.menu li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    h1 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 410px) and (min-width: 400px) {
+    nav.menu ul {
+        position: static;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: rgb(197, 185, 169);
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    nav.menu li {
+        display: block;
+        margin: 10px 0;
+    }
+}
